@@ -1,11 +1,11 @@
 body{
-    background: url('/Profile_Pictures/Portfolio_background.png') no-repeat center fixed;
+    background: url('Profile_Pictures/Portfolio_background.png') no-repeat center fixed;
     background-size: cover;
 }
 
 @font-face {
     font-family: valegan;
-    src: url('/Font/Valegandemo-ALeOx.otf');
+    src: url('Font/Valegandemo-ALeOx.otf');
 }
 
   
@@ -59,7 +59,7 @@ video{
   
 .description {
     font-size: 1vw;
-    color: #8C0000;
+    color: #f0f0f0a2;
     font-family: valegan;
     padding: 15px;
     text-align: center;
@@ -77,6 +77,6 @@ video{
 a{
     font-size: 1.5vw;
     align-self: center;
-    color: #8C0000;
+    color: #f0f0f0a2;
     font-family: valegan;
 }

@@ -1,11 +1,11 @@
 body{
-    background: url('/Profile_Pictures/Portfolio_background.png') no-repeat center fixed;
+    background: url('Profile_Pictures/Portfolio_background.png') no-repeat center fixed;
     background-size: cover;
 }
 
 @font-face {
     font-family: valegan;
-    src: url('/Font/Valegandemo-ALeOx.otf');
+    src: url('Font/Valegandemo-ALeOx.otf');
 }
 
 @media only screen and (max-width: 700px) {
@@ -35,13 +35,12 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #8C0000;
+    color: #f0f0f0a2;
     /* background-color: rgba(255, 255, 255, 0.8);
     border: 1px solid rgba(0, 0, 0, 0.8); */
     padding: 20px;
     font-size: 30px;
 }
-
 img{
     display: block;
     margin-left: auto;
@@ -54,16 +53,17 @@ img{
 
 p{
     font-size: 3vw;
-    color: #8C0000;
+    color: #f0f0f0a2;
     font-family: valegan;
     text-align: center;
 }
 
 a{
     font-size: 1.5vw;
-    color: #8C0000;
+    color: #f0f0f0a2;
     font-family: valegan;
 }
+
 /* ----------------------- */
 
 /* Grid to manage the box */
@@ -93,7 +93,7 @@ a{
 
 p2{
     font-size: 1vw;
-    color: #8C0000;
+    color: #f0f0f0a2;
     font-family: valegan;
 }
 
