@@ -3,6 +3,10 @@ body{
     background-size: cover;
 }
 
+header{
+    height: 5px;
+}
+
 @font-face {
     font-family: valegan;
     src: url('Font/Valegandemo-ALeOx.otf');
