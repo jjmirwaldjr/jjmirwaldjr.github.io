@@ -9,17 +9,24 @@ body{
 }
 
 @media only screen and (max-width: 700px) {
-    .responsive {
-      width: 50%;
-      margin: 6px 0;
+    body {
+      width: -8vw;
     }
   }
   
   @media only screen and (max-width: 500px) {
-    .responsive {
+    .grid-container {
       width: 100%;
     }
   }
+
+  p4{
+    font-size: 0.5vw;
+    color: #f0f0f0a2;
+    font-family: valegan;
+    text-align: center;
+  }
+
 
 /*This handles the home page*/
 
@@ -78,6 +85,7 @@ a{
         'bl bm br';
     /* border: 1px solid red; */
     overflow-y: auto;
+
 }
 .content {
     grid-area: mm;
@@ -94,6 +102,13 @@ a{
 
 p2{
     font-size: 1vw;
+    color: #f0f0f0a2;
+    font-family: valegan;
+}
+
+p3{
+    font-size: 1.3vw;
+    text-decoration: underline;
     color: #f0f0f0a2;
     font-family: valegan;
 }
